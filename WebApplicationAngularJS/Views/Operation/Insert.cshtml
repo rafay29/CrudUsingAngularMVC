@@ -1,0 +1,23 @@
+﻿<div ng-controller="InsertController">
+    Insert Following details
+
+    <form ng-submit="InsertDetails()">
+        <table>
+            <tr>
+                <td><label>Name</label></td>
+                <td><input type="text" ng-model="models.name" /></td>
+            </tr>
+            <tr>
+                <td><label>Contact</label></td>
+                <td><input type="text" ng-model="models.contact" /></td>
+            </tr>
+            <tr>
+                <td><input type="submit" /></td>
+            </tr>
+        </table>
+    </form>
+
+    Details Insert by You:<br />
+    Name : {{models.name}}<br />
+    Contact: {{models.contact}}<br />
+</div>

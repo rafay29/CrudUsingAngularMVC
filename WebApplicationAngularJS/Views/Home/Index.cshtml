@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html ng-app="CRUDapp">
+<head>
+    <title>HOME</title>
+</head>
+<body>
+    <ul>
+        <li><a href="/#/Insert">Insert</a></li>
+        <li><a href="/#/Update">Update</a></li>
+        <li><a href="/#/Delete">Delete</a></li>
+        <li><a href="/#/Details">Details</a></li>
+    </ul>
+
+    <div ng-view></div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular-route.min.js"></script>
+    @Scripts.Render("~/bundles/CRUDApp")
+</body>
+</html>
